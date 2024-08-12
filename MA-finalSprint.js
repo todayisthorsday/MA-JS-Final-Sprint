@@ -2,23 +2,23 @@
 fetch("simplefile.json")
   .then((response) => response.json())
   .then((data) => {
-    // Select the container where the HTML will be inserted
+    // Container where HTML will be inserted
     const container =
       document.getElementById("employee-container") || document.body;
 
     data.employee.forEach((employee) => {
       // Log to console
-      console.log(get(employee)); // Call the get function here
+      console.log(get(employee));
 
-      // Create a new div element for each employee
+      // New div element for each employee
       const employeeDiv = document.createElement("div");
       employeeDiv.textContent = get(employee);
 
-      // Append the new div to the container
+      // Append new div to container
       container.appendChild(employeeDiv);
     });
 
-    // Log the entire data to console if needed
+    // Log the entire data to console
     console.log(data);
   })
   .catch((error) => {
