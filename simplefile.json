@@ -1,0 +1,45 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "company": "Acme",
+      "phone": "123 456-7890"
+    },
+
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "company": "Apple",
+      "phone": "157 973-3464"
+    },
+
+    {
+      "id": 3,
+      "name": "Sara Jane",
+      "company": "CMA",
+      "phone": "208 708-7805"
+    },
+
+    {
+      "id": 4,
+      "name": "Robert Deer",
+      "company": "BMO",
+      "phone": "168 731-7253"
+    },
+
+    {
+      "id": 5,
+      "name": "Norman Doe",
+      "company": "DMC",
+      "phone": "931 509-2356"
+    },
+
+    {
+      "id": 6,
+      "name": "Stephanie Deer",
+      "company": "Ford",
+      "phone": "576 759-9213"
+    }
+  ]
+}
